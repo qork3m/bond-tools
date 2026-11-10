@@ -66,9 +66,6 @@ returns 1000 — back to par. The round trip closes.
 ## Notes
 
 - Annual coupons only; semiannual payments are not handled.
-- Cumulative return over a window is approximated as the sum of periodic
-  returns rather than compounded — the difference is negligible at these
-  magnitudes.
 - `bootstrap_spot_rates` assumes the input bonds trade at par.
 
 ## Next
